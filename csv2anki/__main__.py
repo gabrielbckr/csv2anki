@@ -1,6 +1,6 @@
 import click
 
-from csv2deck.commands.create_deck import create_deck
+from csv2anki.commands.create_deck import create_deck
 
 
 @click.group()

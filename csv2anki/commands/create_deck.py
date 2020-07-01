@@ -3,8 +3,8 @@ import click
 import pandas as pd
 from pathlib import Path
 import genanki as anki
-from csv2deck.models import simple_flashcard
-from csv2deck.generator.deck_generator import DeckGenerator
+from csv2anki.models import simple_flashcard
+from csv2anki.generator.deck_generator import DeckGenerator
 
 
 @click.command()
